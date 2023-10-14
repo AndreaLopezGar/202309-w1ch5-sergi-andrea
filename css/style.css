@@ -6,11 +6,15 @@
   scrollbar-width: none;
 }
 
+body {
+  background-color: rgb(237, 237, 237);
+}
+
 *::-webkit-scrollbar {
   display: none;
 }
 
-header {
+.header-section-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +45,7 @@ h1 {
 
 .h2-first-section {
   font-family: Poppins;
-  font-size: 38px;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 49px;
   letter-spacing: -0.02em;
@@ -65,6 +69,7 @@ h1 {
   padding-block: 1rem;
   gap: 10px;
   margin-block-end: 3rem;
+  cursor: pointer;
 }
 .get-started p {
   color: white;
