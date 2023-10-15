@@ -1,6 +1,4 @@
 {
-
-=======
   "name": "202309-w1ch4-sergi-casiano",
   "version": "1.0.0",
   "description": "## Maquetación Pets",
@@ -12,7 +10,6 @@
   },
   "keywords": [],
   "author": "",
-
   "license": "ISC",
   "dependencies": {
     "sass": "^1.69.3"
