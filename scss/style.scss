@@ -157,21 +157,6 @@ h1 {
   text-align: center;
 }
 
-.prices-section {
-  display: flex;
-  padding: 2.5rem 1.875rem;
-  margin-inline: 2.2rem;
-  column-gap: 2rem;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.675rem;
-  align-self: stretch;
-  border-radius: 1.25rem;
-  border: 1px solid var(--Neutral---Zircon, #f8f9ff);
-  background: #fff;
-  box-shadow: 34.85415px 29.62603px 48.34px 0px rgba(51, 102, 255, 0.05);
-}
-
 .h3-prices-section {
   color: #2d2d2d;
   font-family: Mulish;
@@ -265,6 +250,23 @@ h1 {
   gap: 2rem;
 }
 
+.prices-section {
+  display: flex;
+  font-family: poppins;
+  padding: 2.5rem 1.875rem;
+  margin-inline: 2.2rem;
+  column-gap: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.675rem;
+  align-self: stretch;
+  border-radius: 1.25rem;
+  border: 1px solid var(--Neutral---Zircon, #f8f9ff);
+  background: #fff;
+  box-shadow: 34.85415px 29.62603px 48.34px 0px rgba(51, 102, 255, 0.05);
+  margin-block-end: 2rem;
+}
+
 .prices-section-green {
   display: flex;
   font-family: poppins;
@@ -309,6 +311,7 @@ h1 {
   display: flex;
   padding: 60px 30px;
   flex-direction: column;
+
   align-items: center;
   gap: 30px;
   align-self: stretch;
@@ -574,6 +577,7 @@ h1 {
   padding: 40px 30px;
   flex-direction: column;
   align-items: center;
+  margin-block-end: 2rem;
   gap: 30px;
   align-self: stretch;
   border-radius: 20px;
@@ -590,4 +594,33 @@ h1 {
   gap: 60px;
   align-self: stretch;
   background-color: #f8d57e;
+}
+
+.testimonials-clients-block {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width > 480px) {
+  .menu-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .space-between-cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .testimonials-clients-block {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .otter-images {
+    display: flex;
+    flex-direction: row;
+  }
 }
