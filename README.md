@@ -18,3 +18,4 @@ Requisitos:
 - Instalar husky con el método automático de instalación.
 - Añadir los dos hooks.
 - Hay que desplegar la web a Vercel / Netlify.
+
