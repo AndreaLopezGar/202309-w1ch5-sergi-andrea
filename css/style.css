@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: lightgrey;
+  background-color: #f8f9ff;
 }
 
 *::-webkit-scrollbar {
@@ -598,6 +598,7 @@ h1 {
   flex-direction: column;
 }
 
+
 @media (width > 480px) {
   .menu-mobile {
     display: flex;
@@ -629,7 +630,7 @@ h1 {
 
 .first-figures .p-figures {
   display: flex;
-  padding-left: 0px;
+  padding-left: 5px;
   flex-direction: column;
   align-items: flex-start;
   flex: 1 0 0;
@@ -639,7 +640,7 @@ h1 {
 
 .second-figures .p-figures {
   display: flex;
-  padding-left: 0px;
+  padding-left: 5px;
   flex-direction: column;
   align-items: flex-start;
   flex: 1 0 0;
@@ -795,7 +796,8 @@ h1 {
 }
 
 .space-footer {
-  padding: 2rem;
+
+  padding: 1rem;
 }
 
 .p-figures {
